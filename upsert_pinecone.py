@@ -5,9 +5,7 @@ from pinecone import Pinecone, ServerlessSpec
 # CONFIGURATION
 # ----------------------------
 CHUNKS_JSON = "chunks_with_embeddings.json"
-PINECONE_API_KEY = (
-    "pcsk_5VoLPK_CsbA82fWLPj9zyg8naWTc7MjrEj1VroaYqMB42RRV4ZbnbAhU5Z7kjxMaDFyBsR"
-)
+PINECONE_API_KEY = "****************************************"
 INDEX_NAME = "unabot1"
 VECTOR_DIM = 1024  # Ensure this matches your embedding size
 BATCH_SIZE = 100
